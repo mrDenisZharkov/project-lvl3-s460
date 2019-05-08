@@ -1,0 +1,31 @@
+{
+    "name": "denis/pagesanalizer",
+    "description": "Convenient package for analize your pages",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Zharkov Denis",
+            "email": "zdu.ing@gmail.com"
+        }
+    ],
+   "scripts": {
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf",
+        "phpunit": "phpunit",
+        "test": "phpunit tests"
+    },
+    "autoload": {
+        "files": [
+        ],
+        "psr-4": {
+            "pagesanalizer\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "twbs/bootstrap": "4.3.1"
+    },
+	"require-dev": {
+		"squizlabs/php_codesniffer": "3.3.2",
+        "phpunit/phpunit": "8"
+    }
+}
