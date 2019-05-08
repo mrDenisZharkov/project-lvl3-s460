@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a014c0605a3a8d8f97ecf52ec453dd3",
+    "content-hash": "595a29c2d64e1e56b38e676e350be0fc",
     "packages": [
         {
             "name": "twbs/bootstrap",
